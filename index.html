@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Contador com intervalo</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/6290/6290515.png" type="icon/png"/>
+</head>
+<body>
+    <header>
+        <h1>Contador com Intervalo</h1>
+    </header>
+    <section id="container">
+        <div id="infos">
+            <input type="number" id="count-number" placeholder="Digite um número..."/>
+            <select id="count-interval">
+                <option value="100">0.1s</option>
+                <option value="500">0.5s</option>
+                <option value="1000" selected>1s</option>
+            </select>
+        </div>
+            <button id="start-count-btn">Iniciar contagem</button>
+        <div id="count-display">
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por</p>
+        <p><a href="https://github.com/matheusoliveirajc">Matheus de Oliveira</a></p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
